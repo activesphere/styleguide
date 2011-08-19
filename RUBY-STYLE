@@ -68,6 +68,8 @@ when you contribute to my code, please follow these rules:
 
 * Use ||= freely.
 
+* Never use and and not in boolean logic, use not and end of control flow only.
+
 * Use non-OO regexps (they won't make the code better).  Freely use
   =~, $0-9, $~, $` and $' when needed.
 
@@ -110,7 +112,7 @@ when you contribute to my code, please follow these rules:
 
 * When defining binary operators, name the argument "other".
 
-* Prefer map over collect, find over detect, find_all over select,
+* Prefer collect over map, detect over find,  select over find_all,
   size over length.
 
 
@@ -120,6 +122,8 @@ when you contribute to my code, please follow these rules:
   Use one space after periods.
 
 * Avoid superfluous comments.
+
+* Always use # comments, and not the  =begin =end even for multiline
 
 
 == The rest:
