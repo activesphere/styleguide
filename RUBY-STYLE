@@ -62,10 +62,6 @@ when you contribute to my code, please follow these rules:
 
 * Avoid return where not required. You don't need return all the time.
 
-* Simple one line if/unless should be 
-
-   foo if valid?
-   
 * Prefer using [] , {} over Array.new , Hash.new
 
 * Declare variables as late as possible.
