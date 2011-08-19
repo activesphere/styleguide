@@ -62,6 +62,22 @@ when you contribute to my code, please follow these rules:
 
 * Avoid return where not required.
 
+* Simple one line if/unless should be 
+
+   foo if valid?
+   
+* Prefer using [] , {} over Array.new , Hash.new
+
+* Declare variables as late as possible.
+   
+* Never use then with if or unless
+
+* User single quoted strings for simple strings by default, Use double quotes for interpolation
+
+  foo = 'hello'
+  
+  bar = "hello #{name}"
+
 * Using the return value of = is okay:
 
     if v = array.grep(/foo/) ...
